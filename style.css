@@ -19,7 +19,7 @@ body {
   }
 
   #home-tab > p{
-      background-color: black;
+      background-color: rgba(0, 0, 0, 0.473);
       color: white;
       margin-right: 100px;
    
@@ -43,6 +43,6 @@ body {
   }
 
   p {
-      background: black;
+      background: rgba(0, 0, 0, 0.466);
   }
 
