@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Plumlee Portfolio</title>
+</head>
+<body>
+    <!--Navbar START-->
+    
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="aboutMe-tab" data-bs-toggle="tab" data-bs-target="#aboutMe" type="button" role="tab" aria-controls="aboutMe" aria-selected="false">About</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="project-tab" data-bs-toggle="tab" data-bs-target="#project" type="button" role="tab" aria-controls="project" aria-selected="false">Projects</button>
+        </li>
+      </ul>
+
+      <div class="tab-content" id="myTabContent">
+
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="homeGrid" id="home-tab">
+                <p id="home-tab" style="font-size: 4vw;"> Welcome, my name is Steven. I am a full-stack developer.
+                    Check out my page. I thought the following quote was true, and fitting. My own sense of humor, I guess.
+                    I stole it from bootstrap.
+
+                </p>
+            
+                <div class="card" style="background: rgba(0, 0, 0, 0);">
+                    <div class="card-header" style="color:white;">
+                      Quote
+                    </div>
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0">
+                        <p style ="color: white;">A well-known quote, contained in a blockquote element.</p>
+                        <footer class="blockquote-footer" style="color:white;">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                      </blockquote>
+                    </div>
+                  </div>
+
+
+            </div>
+        </div>
+        <!--ABOUT ME PANEL-->
+        <div class="tab-pane fade" id="aboutMe" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="aboutMeGrid" id=aboutMe-tab role="tablist">
+        <!--CARDS ABOUT ME-->
+        <div class="row">
+            <div class="col-sm-6" style="background: rgba(0, 0, 0, 0);">
+              <div class="card" style="background: rgba(0, 0, 0, 0);">
+                <div class="card-body" style="background: rgba(0, 0, 0, 0);">
+                  <h5 class="card-title" style="color: white;">Linkedin</h5>
+                  <p class="card-text" style="color: white;">Check out my Linkedin profile.</p>
+                  <a href="https://www.linkedin.com/in/steven-plumlee-4347ab205" class="btn btn-primary" style="background:rgba(0, 0, 255, 0.808);">Linkedin</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6" style="background: rgba(0, 0, 0, 0);">
+              <div class="card" style="background: rgba(0, 0, 0, 0);">
+                <div class="card-body" style="background: rgba(0, 0, 0, 0);">
+                  <h5 class="card-title" style="color: white;">Github</h5>
+                  <p class="card-text"style="color: white;">Check out all my activity.</p>
+                  <a href="https://github.com/plumtree87" class="btn btn-primary" style="background: rgba(85, 85, 150, 0.514);">Github</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!--CARDS ABOUT ME END-->
+        <!--Accordian-->
+        <div class="container" id="accordianContainer" style="margin-top: 5px;">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" style="color: white; background: rgba(0, 0, 0, 0);" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Husband
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body" style="background: black;">My wife's parents are from Pakistan, and so I have got to visit over there and try new and interested food. Quite enjoyable the mix of culture. </div>
+                    <!--photo-->
+                    <img class="body2" src="../2ndEdition.plumtree87.github.io/imgs/eveningLake.jpg" alt="" width="100%" height="auto"> 
+                    <!--photo-->
+            </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" style="color: white; background: rgba(0, 0, 0, 0);" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  U.S. Army Veteran
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body" style="background: black;"><p>Honorably discharged. My best experience was when I served at the DMZ in South Korea. Camp Casey. "2nd to None" I made a lot of Korean friends, and even learned to read/write and speak some Korean. 한국에서 이년 동안 살았어요. 한국말 조금만 알라요. 찐자 조금만. :)</p>
+                        <!--photo-->
+                         <img class="body2" src="../2ndEdition.plumtree87.github.io/imgs/eveningLake.jpg" alt="" width="100%" height="auto"> 
+                        <!--photo-->
+                    </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" style="color: white;background: rgba(0, 0, 0, 0)" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Full-Stack Developer
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body" style="background:black;">I got started learning coding and development with DevCodeCamp.com, born out of a desire to learn in order to someday get involved in some way in block-chain development. It was my first step in many.
+            <!--photo button-->
+                    <img class="body3" src="../2ndEdition.plumtree87.github.io/imgs/eveningLake.jpg" alt="" width="100%" height="auto">
+            <!--photo button-->
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+        <!--Accordian END-->
+        <!--ABOUT ME PANEL ENDING DIVS above-->
+            </div>
+        </div>
+        <!--CONTACT ME-->
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+            <div class="container">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address where you want me to contact you.</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Description of what you want to have developed on the web.</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message"></textarea>
+                </div>
+            </div>
+            
+        </div>
+        <div class="tab-pane fade" id="project" role="tabpanel" aria-labelledby="project-tab">...</div>
+      </div>
+    
+      <!--Nav Bar END-->
+
+      <!--Home Paragraph-->
+
+        <!--ABOUT ME-->
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>

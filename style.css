@@ -1,0 +1,48 @@
+
+
+body {
+    /* The image used */
+    background-image: url("../2ndEdition.plumtree87.github.io/imgs/nightView.jpg");
+  
+    /* Full height */
+    height: 100%;
+    
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+  }
+
+  button {
+      color: white;
+  }
+
+  #home-tab > p{
+      background-color: black;
+      color: white;
+      margin-right: 100px;
+   
+  }
+
+  .aboutMeGrid > p {
+    color: white;
+  }
+
+  .container {
+      height: 100%;
+      width: auto;
+
+      color: white;
+  }
+
+  .accordian-button {
+      color: white;
+      background-blend-mode:difference;
+    
+  }
+
+  p {
+      background: black;
+  }
+
